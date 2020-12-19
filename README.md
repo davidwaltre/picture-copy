@@ -18,4 +18,4 @@ This program is written very simple - and probably not very good. It serves its 
 - Make prefix easier changeable by user
 
 ## Contributing
-If you'd like to contribute, feel free to do so! I am happy about every contribution to improve the program.
+If you'd like to contribute, feel free to do so! I am happy about every contribution to improve the program. For smaller contributions - please open an issue.
