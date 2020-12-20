@@ -14,6 +14,7 @@ This program is written very simple - and probably not very good. It serves its 
 - Improve method "copy" in class "picture"
 - Add GUI
 - Add support of more file formats - *e.g. .mov*
+- Add .csv file-name data sheet import
 - Make file formats non case sensitive
 - Make prefix easier changeable by user
 
