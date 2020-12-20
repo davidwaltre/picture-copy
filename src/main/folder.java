@@ -12,7 +12,7 @@ public class folder {
 		
 		System.out.println("Give a source folder:");
 		srcFolder = srcFolderScanner.nextLine()+"/";
-		System.out.println("Is "+srcFolder+"correct? 'Yes' or 'No'");
+		System.out.println("Is "+srcFolder+" correct? 'Yes' or 'No'");
 		srcFolderIsStandard = srcFolderScanner.nextLine();
 		
 		if (srcFolderIsStandard.equalsIgnoreCase("Yes")) {
@@ -23,7 +23,7 @@ public class folder {
 			System.out.println("Give a source folder:");
 			while (srcFolderFinal == null) {
 				srcFolder = srcFolderScanner.nextLine()+"/";
-				System.out.println("Is "+srcFolder+"correct? 'Yes' or 'No'");
+				System.out.println("Is "+srcFolder+" correct? 'Yes' or 'No'");
 				srcFolderIsStandard = srcFolderScanner.nextLine();
 				if (srcFolderIsStandard.equalsIgnoreCase("Yes")) {
 					srcFolderFinal = srcFolder;
@@ -48,7 +48,7 @@ public class folder {
 		
 		System.out.println("Give the destination folder:");
 		toFolder = toFolderScanner.nextLine()+"/";
-		System.out.println("is "+toFolder+"correct? 'Yes' or 'No'");
+		System.out.println("Is "+toFolder+" correct? 'Yes' or 'No'");
 		toFolderRight = toFolderScanner.nextLine();
 		if (toFolderRight.equalsIgnoreCase("Yes")) {
 			System.out.println("Folder set.");
