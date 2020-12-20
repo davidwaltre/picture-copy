@@ -67,6 +67,7 @@ public class picturecopy {
 				}
 			}
 			else if (doCode == 2) {
+				scanner.nextLine();
 				//folder get
 				srcFolder = folder.getSrcFolder(scanner);
 				toFolder = folder.getToFolder(scanner);
